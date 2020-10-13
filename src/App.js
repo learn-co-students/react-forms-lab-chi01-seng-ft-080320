@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import LoginForm from "./components/LoginForm";
 import TwitterMessage from "./components/TwitterMessage";
 
-class App extends Component {
+class App extends React.Component {
 
   login = ({ username, password }) => {
     console.log(`Logging in ${username} with password ${password}`);
